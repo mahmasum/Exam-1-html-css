@@ -1,0 +1,182 @@
+@media (max-width :1920px){
+    .admission-section .admission-img {
+        width: 852px;
+    }
+    .news-letter-section .wrap-news-letter-box {
+        left: 84px;
+    }
+}
+@media (max-width :1721px){
+}
+@media (max-width :1521px){
+    .admission-section .admission-img {
+        width: 653px;
+    }
+    .news-letter-section .wrap-news-letter-box {
+        left: 70px;
+    }
+}
+@media (max-width :1401px){
+
+    .admission-section .admission-img {
+        width: 736px;
+    }
+    .news-letter-section .wrap-news-letter-box {
+        left: 43px;
+    }
+}
+@media (max-width :1321px){
+    .fixed-width {
+        max-width: 1264px;
+        margin: auto;
+    }
+    .about-section .wrap-about-box {
+        width: 35%;
+        margin-top: -52px;
+        margin-left: 94px;
+    }
+    .admission-section .admission-img {
+        width: 570px;
+    }
+    .quetion-section .ask-box {
+        margin-left: 29px;
+    }
+    .testimonial-section .testimonial-box-1 {
+        width: 555px;
+    }
+    .testimonial-section .testimonial-box-2 {
+        width: 555px;
+    }
+    .news-section .news-box {
+        width: 660px;
+    }
+    .news-letter-section .wrap-news-letter-box {
+        left: 43px;
+    }
+}
+@media (max-width: 1120px){
+    .fixed-width {
+        max-width: 1014px;
+    }
+    .header-box-bottom .header-bottom .search-bar a i {
+        margin-left: 60px;
+    }
+    .header-box-bottom .header-bottom .shop-bar li a i {
+        margin-left: 40px;
+    }
+    .about-section .wrap-about-box {
+        margin-left: -22px;
+    }
+    .about-section .about-box {
+        width: 570px;
+        padding: 30px;
+    }
+    .admission-section .admission-img {
+        width: 505px;
+    }
+    .admission-section .admission-text h2 {
+        margin-top: 43px;
+    }
+    .quetion-section .ask-box {
+        margin-left: 0px;
+        width: 500px;
+    }
+    .quetion-section .ask-box h2 {
+        margin-left: 34px;
+    }
+    .quetion-section .ask-box .item-1 {
+        width: 398px;
+        margin-left: 34px;
+    }
+    .quetion-section .ask-box .item-2 {
+        width: 398px;
+        margin-left: 34px;
+    }
+    .quetion-section .ask-box .item-3 {
+        width: 398px;
+        margin-left: 34px;
+    }
+    .quetion-section .ask-img-box img {
+        width: 500px;
+    }
+    .teacher-section img {
+        max-width: 94%;
+    }
+    .teacher-section .teacher-1 {
+        margin-left: 50px;
+    }
+    .teacher-section .teacher-1 ul {
+        width: 222px;
+        padding: 57px 0;
+        top: 33px;
+        left: 33px;
+    }
+    .teacher-section .teacher-2 ul {
+        width: 222px;
+        padding: 57px 0;
+        top: 33px;
+        left: 33px;
+    }
+    .teacher-section .teacher-3 ul {
+        width: 222px;
+        padding: 57px 0;
+        top: 33px;
+        left: 33px;
+    }
+    .testimonial-section .testimonial-box-1 {
+        width: 440px;
+    }
+    .testimonial-section .testimonial-box-2 {
+        width: 440px;
+    }
+    .news-section img{
+        max-width: 94%;
+    }
+    .news-section .wrap-news-item {
+        margin-left: 24px;
+        margin-right: 58px;
+    }
+    .news-section .news-box {
+        width: 550px;
+    }
+    .news-section .news-box .news-img-box {
+        margin-right: 8px;
+        
+    }
+    .news-section .news-box .news-text-box {
+        padding: 0px;
+    }
+    .news-section .news-box .news-text-box span {
+        margin-top: 22px;
+    }
+    .news-section .event-box {
+        width: 358px;
+        padding: 13px;
+    }
+    .news-section .event-box .date-box {
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .news-letter-section .wrap-news-letter-box {
+        left: 34px;
+    }
+    .news-letter-section .wrap-news-letter-box {
+        width: 80%;
+        padding: 36px 58px;
+
+    }
+    .news-letter-section .wrap-news-letter-box .email-box {
+        margin-left: 427px;
+        margin-top: -79px;
+    }
+    .news-letter-section .wrap-news-letter-box .sb-btn .btn {
+        margin-top: 39px;
+        margin-left: 453px;
+    }
+}
+
+@media (max-width : 920px){
+    .fixed-width {
+        max-width: 850px;
+    }
+}

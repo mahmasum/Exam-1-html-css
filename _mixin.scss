@@ -1,0 +1,121 @@
+@mixin default-btn{
+    color: black;
+    border: 2px solid $comon-color;
+    display: block;
+    padding: 13px 30px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    transition: .3s ease-out;
+    &:hover{
+        color: white;
+        background-color: $comon-color;
+    }
+}
+
+@mixin teacher-code{
+    position: relative;
+    transition: .4s ease-in-out;
+    &:hover{
+        ul{
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    ul{
+        background-color: rgba(41, 162, 209,.7);
+        width: 300px;
+        text-align: center;
+        padding: 110px 0;
+        position: absolute;
+        top: 27px;
+        left: 45px;
+        opacity: 0;
+        visibility: hidden;
+        span{
+            font-size: 14px;
+            display: block;
+            margin-top: 15px;
+            color: white;
+        }
+        li{
+            display: inline-block;
+            strong{
+                color: white;
+                cursor: pointer;
+                &:hover{
+                    color: black;
+                }
+            }
+            a{
+                display: block;
+                padding: 10px 15px;
+                color: white;
+                margin-top: 20px;
+                transition: .3s ease-out;
+                &:hover{
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@mixin comon-hover{
+    a:hover{
+        background-color: rgb(16, 105, 194);
+    }
+}
+
+@mixin event-box {
+    width: 450px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: $comon-box-shadow;
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: inline-block;
+
+    .date-box {
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        background-color: #f3f8f9;
+        margin-right: 20px;
+        span {
+            display: block;
+            margin-top: 10px;
+        }
+
+        strong {
+            display: block;
+            color: #21a7d0;
+            font-size: 42px;
+            font-weight: 400;
+        }
+    }
+
+    .text {
+        span {
+            margin-bottom: 7px;
+            display: block;
+            color: #a7aaad;
+            a {
+                color: #a7aaad;
+                &:hover{
+                    color: #21a7d0;
+                }
+            }
+        }
+        h4{
+            font-size: 23px;
+            font-weight: 400;;
+            a{
+                color: black;
+                &:hover{
+                    color: #21a7d0;
+                }
+            }
+        }
+    }
+}
