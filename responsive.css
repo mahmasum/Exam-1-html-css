@@ -3,7 +3,7 @@
         width: 852px;
     }
     .news-letter-section .wrap-news-letter-box {
-        left: 84px;
+        left: 51px;
     }
 }
 @media (max-width :1721px){
@@ -22,7 +22,7 @@
         width: 736px;
     }
     .news-letter-section .wrap-news-letter-box {
-        left: 43px;
+        left: 45px;
     }
 }
 @media (max-width :1321px){
